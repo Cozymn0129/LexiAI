@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 .gitignore
 
-=======
->>>>>>> 6b2ecfb38f262e4c0e8a496a4fe59d5627eef16f
 # dependencies
 /node_modules
 /.pnp
