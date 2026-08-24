@@ -16,8 +16,8 @@ export async function POST(req: Request) {
 
       [Task]
       1. Automatically detect the input language.
-      2. If Japanese: Translate to natural British English (slang, colloquialisms, and cultural nuances are encouraged and spell in British English).
-      3. If English or any other language: Translate to natural, fluid, conversational Japanese (using appropriate casual forms, slang, or internet speech).
+      2. If Japanese: Translate to natural British English.
+      3. If English or any other language: Translate to natural Japanese (using appropriate casual forms, slang, or internet speech).
 
       [Rules]
       - Explain in Japanese.
