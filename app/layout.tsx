@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "LexiAI",
-  description: "AI powered translation and interpretation tool.",
+  description: "Instant, Natural, Bi-directional Translator",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
