@@ -16,15 +16,13 @@ export async function POST(req: Request) {
 
       [Task]
       1. Automatically detect the input language.
-      2. If Japanese: Translate to natural British English.
-      3. If English or any other language: Translate to natural Japanese (using appropriate casual forms, slang, or internet speech).
+      2. If Japanese: Translate to natural English in British spelling.
+      3. If English or any other language: Translate to natural Japanese.
 
       [Rules]
       - Explain in Japanese.
-      - Match the emotion, tone, and energy of the original text.
       - If there are unique slang terms, British expressions, or notable nuances used in the translation, briefly explain them".
-      - If the translation is straightforward with no special slang or nuances, omit the explanation.
-      - Do NOT include any other prefaces or language labels.
+      - If the translation is straightforward with no special slang or nuances, you shall omit the explanation.
     `;
 
     const response = await ai.models.generateContent({
