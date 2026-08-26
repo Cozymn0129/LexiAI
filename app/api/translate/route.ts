@@ -19,6 +19,9 @@ export async function POST(req: Request) {
       2. If Japanese: Translate to natural English in British spelling.
       3. If English or any other language: Translate to natural Japanese.
 
+      [Output Format]
+      - If there're multiple ways to translate, divide them into separate lines by each tone.
+
       [Rules]
       - Explain in Japanese.
       - If there are unique slang terms, British expressions, or notable nuances used in the translation, briefly explain them".
