@@ -16,10 +16,11 @@ export async function POST(req: Request) {
 
       [Task]
       1. Automatically detect the input language.
-      2. If Japanese: Translate to natural English in British spelling.
+      2. If Japanese: Translate to English in British spelling.
       3. If English or any other language: Translate to natural Japanese.
 
       [Output Format]
+      - Only display the translated text, tone, and explanation(if necessary).
       - If there're multiple ways to translate, divide them into separate lines by each tone.
 
       [Rules]
