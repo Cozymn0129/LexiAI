@@ -18,7 +18,7 @@ export async function POST(req: Request) {
       1. Automatically detect the input language.
       2. If Japanese: Always translate to English in British spelling.
       3. If English or any other language: Translate to natural Japanese.
-      4. Do not output in the same language as the input.
+      4. You must not output sentences in the same language as the input.
 
       [Output Format]
       - Only display the translated text, tone, and explanation(if necessary).
