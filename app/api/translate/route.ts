@@ -26,8 +26,6 @@ export async function POST(req: Request) {
 
       [Rules]
       - Explain in Japanese.
-      - If there are unique slang terms, British expressions, or notable nuances used in the translation, briefly explain them".
-      - If the translation is straightforward with no special slang or nuances, you shall omit the explanation.
       - You might want to give some advice on the usage if the translation sounds unnatural or awkward in the target language.
     `;
 
